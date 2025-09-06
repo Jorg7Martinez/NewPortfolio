@@ -23,10 +23,16 @@
 .logo h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  background: #219EBC;
+  background: linear-gradient(135deg, #4a188b 0%, #bd2396 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav-list {
@@ -89,6 +95,8 @@
 .hamburger.active:nth-child(3) {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
+
 
 /* Responsive */
 @media (max-width: 768px) {

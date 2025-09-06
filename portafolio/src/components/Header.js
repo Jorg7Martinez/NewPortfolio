@@ -12,6 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
+          <img alt="logo" src="./logo.png" height={40} width={40}/>
           <h2>Mi Portafolio</h2>
         </div>
         
